@@ -14,4 +14,6 @@ public interface UserMapper extends MyMapper<User> {
 
     @Select("select * from user where username=#{username}")
     User selectByName(String username);
+
+    User selectByIdCard(String idCard);
 }

@@ -30,7 +30,7 @@ public class UserMapperTest {
 
     @Test
     public void testSelect(){
-        User user = mapper.selectByName("Jaycekon");
+        User user = mapper.selectByIdCard("1235");
         Assert.assertNotEquals(null,user);
     }
 }
