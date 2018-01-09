@@ -1,0 +1,5 @@
+rootProject.name = 'Spring-Blog'
+include 'Spring-Blog-common'
+include 'Spring-Blog-business'
+include 'Spring-Blog-api'
+

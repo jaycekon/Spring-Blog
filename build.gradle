@@ -1,0 +1,22 @@
+
+allprojects{
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+
+    ext {
+        jackson = '2.8.8'
+        lombok = '1.16.18'
+        fastjson = '1.2.29'
+        commonslang = '2.6'
+        logVersion = '1.2.1'
+        tkMybatis = '1.1.3'
+    }
+
+
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        mavenCentral()
+    }
+}

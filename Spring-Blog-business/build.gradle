@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":Spring-Blog-common")
+
+    compile "tk.mybatis:mapper-spring-boot-starter:${tkMybatis}"
+    compile "com.alibaba:fastjson:${fastjson}"
+    compile "org.projectlombok:lombok:${lombok}"
+    compile "com.fasterxml.jackson.core:jackson-core:${jackson}"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
