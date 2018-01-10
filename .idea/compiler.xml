@@ -13,6 +13,8 @@
       <module name="Spring-Blog-Common_main" target="1.8" />
       <module name="Spring-Blog-Common_test" target="1.8" />
       <module name="Spring-Blog-common_test" target="1.8" />
+      <module name="Spring-Blog-webflux_main" target="1.8" />
+      <module name="Spring-Blog-webflux_test" target="1.8" />
       <module name="Spring-Blog_main" target="1.8" />
       <module name="Spring-Blog_test" target="1.8" />
     </bytecodeTargetLevel>

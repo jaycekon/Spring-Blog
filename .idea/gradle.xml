@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:/gradle-4.4.1" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/4.1/libexec" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
@@ -13,19 +13,35 @@
             <option value="$PROJECT_DIR$/Spring-Blog-api" />
             <option value="$PROJECT_DIR$/Spring-Blog-business" />
             <option value="$PROJECT_DIR$/Spring-Blog-common" />
+            <option value="$PROJECT_DIR$/Spring-Blog-webflux" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Spring-Blog-api" />
-        <option name="gradleHome" value="D:/gradle-4.4.1" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/4.1/libexec" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Spring-Blog-api" />
             <option value="$PROJECT_DIR$/Spring-Blog-business" />
             <option value="$PROJECT_DIR$/Spring-Blog-common" />
+            <option value="$PROJECT_DIR$/Spring-Blog-webflux" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Spring-Blog-webflux" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/4.1/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Spring-Blog-api" />
+            <option value="$PROJECT_DIR$/Spring-Blog-business" />
+            <option value="$PROJECT_DIR$/Spring-Blog-common" />
+            <option value="$PROJECT_DIR$/Spring-Blog-webflux" />
           </set>
         </option>
       </GradleProjectSettings>

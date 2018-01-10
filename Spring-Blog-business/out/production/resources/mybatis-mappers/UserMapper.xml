@@ -4,20 +4,22 @@
 <mapper namespace="com.charles.business.mapper.UserMapper">
     <resultMap id="User" type="User">
         <result column="username" jdbcType="VARCHAR" property="username"/>
-        <result column="age" jdbcType="VARCHAR" property="age"/>
-        <result column="sex" jdbcType="VARCHAR" property="sex"/>
+        <result column="id_card" jdbcType="VARCHAR" property="idCard"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
     </resultMap>
 
     <sql id="columns">
-       username,age,sex
+       username,id_card,phone,password
     </sql>
 
-    <insert id="insert" parameterType="User"
-            keyProperty="id" useGeneratedKeys="true">
-        INSERT IGNORE INTO t_charles_user (<include refid="columns"/>)
-        VALUES(
-        #{username},#{age},#{sex}
-        )
-    </insert>
+    <select id="selectByIdCard" parameterType="java.lang.String"
+            resultType="User">
+        select id,
+        <include refid="columns"/>
+        from user
+        where id_card = #{idCard,jdbcType=VARCHAR}
+
+    </select>
 
 </mapper>
