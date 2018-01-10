@@ -23,9 +23,5 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-.gitignore
 Spring-Blog-api/build
-Spring-Blog-api/out
-Spring-Blog-business/out
-Spring-Blog-common/out
 
