@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
@@ -22,6 +23,7 @@ public class UserMapperTest {
     private UserMapper mapper;
 
     @Test
+    @Rollback
     public void test() {
         User user = mapper.selectByIdCard("440182199512042311");
         Assert.assertNotNull(user);

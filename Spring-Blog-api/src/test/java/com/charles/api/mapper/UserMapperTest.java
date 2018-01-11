@@ -29,6 +29,7 @@ public class UserMapperTest {
 
     @Test
     public void testSelect(){
-
+        User user = mapper.selectByIdCard("440182199512042311");
+        Assert.assertNotNull(user);
     }
 }
