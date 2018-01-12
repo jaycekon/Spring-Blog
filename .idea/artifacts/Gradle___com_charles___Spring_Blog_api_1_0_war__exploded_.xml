@@ -2,7 +2,7 @@
   <artifact type="exploded-war" name="Gradle : com.charles : Spring-Blog-api-1.0.war (exploded)">
     <output-path>$PROJECT_DIR$/Spring-Blog-api/build/libs/exploded/Spring-Blog-api-1.0.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$">
+      <options external-project-path="$PROJECT_DIR$/Spring-Blog-webflux">
         <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
       </options>
     </properties>

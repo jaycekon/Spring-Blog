@@ -45,6 +45,16 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/webflux" />
+        <option name="gradleHome" value="D:/gradle-4.4.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/webflux" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
