@@ -16,8 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-Blog-webflux/Spring-Blog-webflux.iml" filepath="$PROJECT_DIR$/Spring-Blog-webflux/Spring-Blog-webflux.iml" group="Spring-Blog-webflux" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_main.iml" group="Spring-Blog-webflux" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_test.iml" group="Spring-Blog-webflux" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog_main.iml" group="Spring-Blog" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog_test.iml" group="Spring-Blog" />
     </modules>
   </component>
 </project>

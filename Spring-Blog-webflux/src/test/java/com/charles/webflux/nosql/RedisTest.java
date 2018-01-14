@@ -25,8 +25,8 @@ public class RedisTest {
 
     @Test
     public void test() {
-        redisComponent.set("name", "charles");
-        String value = redisComponent.get("name");
-        logger.info(value);
+//        redisComponent.set("name", "charles");
+//        String value = redisComponent.get("name");
+        logger.info("hello");
     }
 }
