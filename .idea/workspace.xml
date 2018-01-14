@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde7e942-c3ae-4c4a-bf2d-f55655e39069" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/WebfluxController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/model/Charles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/repository/CharlesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/out/production/classes/com/charles/api/SpringBlogApiApplication.class" afterPath="$PROJECT_DIR$/Spring-Blog-api/out/production/classes/com/charles/api/SpringBlogApiApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/build.gradle" afterPath="$PROJECT_DIR$/Spring-Blog-api/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/out/production/resources/application.properties" afterPath="$PROJECT_DIR$/Spring-Blog-api/out/production/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/nosql/RedisTest.java">
+      <file leaf-file-name="WebFluxConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="338">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,75 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/mapper/UserMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/templates/hello.html">
+      <file leaf-file-name="RouterFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/5.0.2.RELEASE/a02e10beea56b62cb5a08a5715fb803dead52197/spring-webflux-5.0.2.RELEASE-sources.jar!/org/springframework/web/reactive/function/server/RouterFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="85" column="59" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/build.gradle">
+      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.2.RELEASE/70043d3b8dbfc5f6836f9b1038c8c84428440d28/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/util/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="202">
+              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBlogApiApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java">
+      <file leaf-file-name="WebfluxController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/WebfluxController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,7 +127,27 @@
         <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBlogApiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,8 +160,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +171,16 @@
       <find>Spring-Blog-web</find>
       <find>my</find>
       <find>th</find>
+      <find>beans</find>
+      <find>requestPredicate</find>
+      <find>/web</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/configuration</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -952,9 +948,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10611362566000" />
+        <entry key="$PROJECT_DIR$" value="10611374922000" />
         <entry key="$PROJECT_DIR$/Spring-Blog-Common/build.gradle" value="3794991600" />
-        <entry key="$PROJECT_DIR$/Spring-Blog-api/build.gradle" value="2541919783" />
+        <entry key="$PROJECT_DIR$/Spring-Blog-api/build.gradle" value="2742236478" />
         <entry key="$PROJECT_DIR$/Spring-Blog-business/build.gradle" value="3180179994" />
         <entry key="$PROJECT_DIR$/Spring-Blog-common/build.gradle" value="3794991600" />
         <entry key="$PROJECT_DIR$/Spring-Blog-webflux/build.gradle" value="3954186596" />
@@ -1144,7 +1140,6 @@
         <option value="$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/MyMapper.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-business/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/model/BaseEntity.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-business/src/main/resources/mybatis-mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/mapper/UserMapper.java" />
@@ -1165,9 +1160,15 @@
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/thymeleaf/index.html" />
         <option value="$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/nosql/RedisTest.java" />
-        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Spring-Blog-api/build.gradle" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/model/Charles.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/repository/CharlesRepository.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/configuration/WebFluxConfiguration.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/build.gradle" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/WebfluxController.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java" />
       </list>
     </option>
   </component>
@@ -1256,7 +1257,25 @@
             <path>
               <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Spring-Blog-webflux" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Spring-Blog-webflux" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Spring-Blog-webflux" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Spring-Blog-webflux" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -1270,7 +1289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -1565,7 +1584,7 @@
       <workItem from="1515588268020" duration="1895000" />
       <workItem from="1515592019187" duration="2420000" />
       <workItem from="1515906305931" duration="1729000" />
-      <workItem from="1515908970709" duration="292000" />
+      <workItem from="1515908970709" duration="4085000" />
     </task>
     <task id="LOCAL-00001" summary=":bug: 剔除无用文件目录">
       <created>1515492646001</created>
@@ -1609,7 +1628,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515909061959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix contributions">
+      <created>1515909405376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515909405376</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1645,7 +1671,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16581000" />
+    <option name="totallyTimeSpent" value="20374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1669,9 +1695,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1683,7 +1710,6 @@
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1723,109 +1749,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java</url>
-          <line>17</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-common/src/test/java/com/charles/common/util/DateUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/resources/mybatis-mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-Common/src/main/resources/log4j2.xml" />
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-common/src/test/java/com/charles/common/util/DateUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/demo.java" />
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-business/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1914,13 +1859,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/build/reports/tests/test/index.html" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1945,17 +1883,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/main/java/com/charles/webflux/WebfluxApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1989,7 +1921,7 @@
         <state relative-caret-position="270">
           <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2016,16 +1948,8 @@
         <state relative-caret-position="315">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2034,15 +1958,141 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.2.RELEASE/cd64a7bee9b9665b2028dd57013119d1f049ad56/reactor-core-3.1.2.RELEASE-sources.jar!/reactor/core/publisher/MonoFromFluxOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="157">
+          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.2.RELEASE/cd64a7bee9b9665b2028dd57013119d1f049ad56/reactor-core-3.1.2.RELEASE-sources.jar!/reactor/core/publisher/MonoCollect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.2.RELEASE/cd64a7bee9b9665b2028dd57013119d1f049ad56/reactor-core-3.1.2.RELEASE-sources.jar!/reactor/core/publisher/MonoOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.ipc/reactor-netty/0.7.2.RELEASE/f1c198d8854f612f8cba27bd61c77d61c26e34da/reactor-netty-0.7.2.RELEASE-sources.jar!/reactor/ipc/netty/ByteBufMono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.2.RELEASE/cd64a7bee9b9665b2028dd57013119d1f049ad56/reactor-core-3.1.2.RELEASE-sources.jar!/reactor/core/publisher/Mono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="90" column="50" lean-forward="false" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="211" column="39" lean-forward="false" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/model/Charles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/repository/CharlesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.2.RELEASE/cd64a7bee9b9665b2028dd57013119d1f049ad56/reactor-core-3.1.2.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="805" column="30" lean-forward="false" selection-start-line="805" selection-start-column="30" selection-end-line="805" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -2050,15 +2100,49 @@
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/WebfluxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.2.RELEASE/70043d3b8dbfc5f6836f9b1038c8c84428440d28/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/5.0.2.RELEASE/a02e10beea56b62cb5a08a5715fb803dead52197/spring-webflux-5.0.2.RELEASE-sources.jar!/org/springframework/web/reactive/function/server/RouterFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="85" column="59" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
