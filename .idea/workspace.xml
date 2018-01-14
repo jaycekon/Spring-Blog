@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde7e942-c3ae-4c4a-bf2d-f55655e39069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-Common/Spring-Blog-common_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Spring-Blog.iml" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Blog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" />
     </list>
@@ -113,12 +105,10 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1575,7 +1565,7 @@
       <workItem from="1515588268020" duration="1895000" />
       <workItem from="1515592019187" duration="2420000" />
       <workItem from="1515906305931" duration="1729000" />
-      <workItem from="1515908970709" duration="76000" />
+      <workItem from="1515908970709" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary=":bug: 剔除无用文件目录">
       <created>1515492646001</created>
@@ -1612,7 +1602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515685741653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix contributions">
+      <created>1515909061959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515909061959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1648,7 +1645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16365000" />
+    <option name="totallyTimeSpent" value="16581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1672,7 +1669,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1700,7 +1697,8 @@
     <MESSAGE value="引入Spring Boot2。0 Webflux" />
     <MESSAGE value="修改忽略配置文件" />
     <MESSAGE value="整合Redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合Redis" />
+    <MESSAGE value="fix contributions" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix contributions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2059,12 +2057,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
           </folding>
         </state>
       </provider>

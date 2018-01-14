@@ -19,10 +19,4 @@ public class IndexController {
         return "hello";
     }
 
-
-    @RequestMapping(value = "index")
-    @ResponseBody
-    public String hello() {
-        return "hello world!";
-    }
 }
