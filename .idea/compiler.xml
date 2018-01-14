@@ -17,6 +17,8 @@
       <module name="Spring-Blog-webflux_test" target="1.8" />
       <module name="Spring-Blog_main" target="1.8" />
       <module name="Spring-Blog_test" target="1.8" />
+      <module name="webflux_main" target="1.8" />
+      <module name="webflux_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

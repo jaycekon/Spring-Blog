@@ -28,8 +28,10 @@ repositories {
 dependencies {
     compile project(":Spring-Blog-business")
 	compile('org.springframework.boot:spring-boot-starter-webflux')
+	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.springframework.boot:spring-boot-devtools')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 
     compileOnly('org.projectlombok:lombok')
     runtime('mysql:mysql-connector-java')

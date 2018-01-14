@@ -13,17 +13,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * Created by Jaycekon on 2018/1/11.
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest
+
 public class RedisTest {
 
     private Logger logger = LoggerFactory.getLogger(RedisTest.class);
 
-    @Autowired
     private RedisComponent redisComponent;
 
 
-    @Test
     public void test() {
 //        redisComponent.set("name", "charles");
 //        String value = redisComponent.get("name");
