@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-Blog-api/Spring-Blog-api.iml" filepath="$PROJECT_DIR$/Spring-Blog-api/Spring-Blog-api.iml" group="Spring-Blog-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api.iml" group="Spring-Blog-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-api.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api.iml" group="Spring-Blog-api" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Blog-api/Spring-Blog-api.iml" filepath="$PROJECT_DIR$/Spring-Blog-api/Spring-Blog-api.iml" group="Spring-Blog-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_main.iml" group="Spring-Blog-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-api/Spring-Blog-api_test.iml" group="Spring-Blog-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-business/Spring-Blog-business.iml" group="Spring-Blog-business" />
@@ -13,9 +14,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common.iml" group="Spring-Blog-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common_main.iml" group="Spring-Blog-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-common/Spring-Blog-common_test.iml" group="Spring-Blog-common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux.iml" group="Spring-Blog-webflux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux.iml" group="Spring-Blog-webflux" />
       <module fileurl="file://$PROJECT_DIR$/Spring-Blog-webflux/Spring-Blog-webflux.iml" filepath="$PROJECT_DIR$/Spring-Blog-webflux/Spring-Blog-webflux.iml" group="Spring-Blog-webflux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux.iml" group="Spring-Blog-webflux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux_main.iml" group="Spring-Blog-webflux" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_main.iml" group="Spring-Blog-webflux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux/Spring-Blog-webflux_test.iml" group="Spring-Blog-webflux" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Blog-webflux_test.iml" group="Spring-Blog-webflux" />
     </modules>
   </component>
