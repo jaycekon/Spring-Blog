@@ -27,15 +27,21 @@ repositories {
 
 dependencies {
     compile project(":Spring-Blog-business")
+    compile('org.springframework.boot:spring-boot')
     compile('org.springframework.boot:spring-boot-starter-webflux')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-    compile('org.springframework.boot:spring-boot-starter-data-redis')
-
     runtime('org.springframework.boot:spring-boot-devtools')
+
+
+
+    compile('mysql:mysql-connector-java')
+    compile('org.springframework.boot:spring-boot-starter-data-redis')
+    compile('com.alibaba:druid:1.1.6')
+
+
     compileOnly('org.projectlombok:lombok')
-    runtime('mysql:mysql-connector-java')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')
 }
