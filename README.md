@@ -37,3 +37,25 @@ Spring-Blog
  
 #### 数据库：
     resource: charles_blog.sql
+    
+    
+### 8102-01-15 配置Mybatis 多数据源以及设置数据库连接池
+#### Spring-Blog-api:
+
+- **DataSource**
+
+在 Config 目录下配置DataSource 相关配置，主要做了数据库连接池配置
+```
+~\Spring-Blog\Spring-Blog-api\src\main\java\com\charles\api\config\dataSource\DruidDataSourceConfig.java
+```
+
+配置多数据源主要在以下类进行处理
+```
+~\Spring-Blog\Spring-Blog-api\src\main\java\com\charles\api\config\dataSource\DataSourceConfig.java
+```  
+
+
+
+- **Thymeleaf**
+
+接入模板引擎，由于WebFlux 不支持（Thymeleaf 基于javax.servlet），因此将Thymeleaf 放在Api目录下进行开发。

@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cde7e942-c3ae-4c4a-bf2d-f55655e39069" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseContextHolder.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseContextHolder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,69 +87,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2100#2101#0" expanded="true" />
-                <element signature="e#2157#2158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractRoutingDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.2.RELEASE/791175a228ad202bb8862203c1a9296dca0a93dd/spring-jdbc-5.0.2.RELEASE-sources.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-              <folding>
-                <element signature="e#2495#2496#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlSessionFactoryBean.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.1/59b2a888105b7c90c382f1fc5d3d4c4c7c65c8f0/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.0/b0c3136f1c62198c7871127b642b1d8349e779a2/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.M7/6527d0d56f95c1747e42180f63f49bde988efb41/spring-boot-2.0.0.M7-sources.jar!/org/springframework/boot/jdbc/DataSourceBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanUtils.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.2.RELEASE/b5813fc5315d56660d938fe5219f9e2f83b7ca34/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1239">
+                <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -173,28 +115,30 @@
       <file leaf-file-name="DruidDataSourceConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="827">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="620">
+              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1254,7 +1198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/thymeleaf/index.html" />
         <option value="$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/nosql/RedisTest.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/model/Charles.java" />
@@ -1305,6 +1248,7 @@
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java" />
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.0/b0c3136f1c62198c7871127b642b1d8349e779a2/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1396,110 +1340,7 @@
               <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-business" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-business" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-business" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-business" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Spring-Blog-business" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis-mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -1808,7 +1649,7 @@
       <workItem from="1515592019187" duration="2420000" />
       <workItem from="1515906305931" duration="1729000" />
       <workItem from="1515908970709" duration="4085000" />
-      <workItem from="1515995548130" duration="11823000" />
+      <workItem from="1515995548130" duration="12588000" />
     </task>
     <task id="LOCAL-00001" summary=":bug: 剔除无用文件目录">
       <created>1515492646001</created>
@@ -1880,7 +1721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516015116933</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=":ambulance: mysql 多数据源与数据库连接池整合">
+      <created>1516016225740</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516016225740</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1916,7 +1764,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34618000" />
+    <option name="totallyTimeSpent" value="35383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2008,7 +1856,8 @@
     <MESSAGE value=":ambulance: WebFlux" />
     <MESSAGE value=":ambulance: Api 模块配置Druid连接池" />
     <MESSAGE value=":ambulance: Api 配置多数据源" />
-    <option name="LAST_COMMIT_MESSAGE" value=":ambulance: Api 配置多数据源" />
+    <MESSAGE value=":ambulance: mysql 多数据源与数据库连接池整合" />
+    <option name="LAST_COMMIT_MESSAGE" value=":ambulance: mysql 多数据源与数据库连接池整合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2055,14 +1904,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="38" column="70" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.2.RELEASE/70043d3b8dbfc5f6836f9b1038c8c84428440d28/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -2329,14 +2170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/SpringBlogApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2404,24 +2237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2481,15 +2296,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="827">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1239">
+            <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
