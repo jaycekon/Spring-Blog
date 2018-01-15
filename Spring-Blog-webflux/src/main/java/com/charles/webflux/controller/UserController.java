@@ -1,6 +1,5 @@
 package com.charles.webflux.controller;
 
-import com.charles.business.mapper.UserMapper;
 import com.charles.business.model.User;
 import com.charles.webflux.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
