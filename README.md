@@ -59,3 +59,11 @@ Spring-Blog
 - **Thymeleaf**
 
 接入模板引擎，由于WebFlux 不支持（Thymeleaf 基于javax.servlet），因此将Thymeleaf 放在Api目录下进行开发。
+
+
+- **Swagger**
+
+接入Swagger Api 文档生成器，配置文件存放地址：
+```
+~\Spring-Blog\Spring-Blog-api\src\main\java\com\charles\api\config\swagger\SwaggerConfig.java
+```

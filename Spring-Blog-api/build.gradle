@@ -27,6 +27,7 @@ repositories {
 
 dependencies {
     compile project(":Spring-Blog-business")
+    // SpringBoot 基本依赖
     compile('org.springframework.boot:spring-boot')
     compile('org.springframework.boot:spring-boot-starter-webflux')
     compile('org.springframework.boot:spring-boot-starter-web')
@@ -34,13 +35,17 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     runtime('org.springframework.boot:spring-boot-devtools')
 
+    //Swagger 依赖
+    compile('io.springfox:springfox-swagger2:2.6.1')
+    compile('io.springfox:springfox-swagger-ui:2.6.1')
 
-
+    // 数据库相关依赖
     compile('mysql:mysql-connector-java')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile('com.alibaba:druid:1.1.6')
 
 
+    // 测试用工具依赖
     compileOnly('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')

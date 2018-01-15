@@ -9,6 +9,11 @@ public class Charles {
     private String name;
 
 
+    public Charles(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

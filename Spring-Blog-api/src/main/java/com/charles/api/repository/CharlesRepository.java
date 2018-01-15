@@ -16,6 +16,10 @@ public class CharlesRepository {
 
     private static final ConcurrentMap<Integer, Charles> map = new ConcurrentHashMap<>();
 
+    static {
+        map.put(1, new Charles(1, "charles"));
+    }
+
     private static AtomicInteger ID_CREATOR = new AtomicInteger(0);
 
 
