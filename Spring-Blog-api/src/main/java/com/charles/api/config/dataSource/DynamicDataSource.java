@@ -1,4 +1,4 @@
-package com.charles.api.config;
+package com.charles.api.config.dataSource;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.lang.Nullable;

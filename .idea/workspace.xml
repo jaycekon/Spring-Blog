@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde7e942-c3ae-4c4a-bf2d-f55655e39069" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseContextHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/out/production/resources/application.properties" afterPath="$PROJECT_DIR$/Spring-Blog-api/out/production/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseContextHolder.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseContextHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java" afterPath="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,51 +92,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="554">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.M7/6527d0d56f95c1747e42180f63f49bde988efb41/spring-boot-2.0.0.M7-sources.jar!/org/springframework/boot/jdbc/DataSourceBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseContextHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseContextHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2157#2158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,28 +108,61 @@
       <file leaf-file-name="AbstractRoutingDataSource.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.2.RELEASE/791175a228ad202bb8862203c1a9296dca0a93dd/spring-jdbc-5.0.2.RELEASE-sources.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="167">
+              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding>
+                <element signature="e#2495#2496#0" expanded="true" />
+                <element signature="e#2544#2545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlSessionFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.1/59b2a888105b7c90c382f1fc5d3d4c4c7c65c8f0/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java">
+      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.0/b0c3136f1c62198c7871127b642b1d8349e779a2/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="112">
+              <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DruidDataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java">
+      <file leaf-file-name="DataSourceBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.M7/6527d0d56f95c1747e42180f63f49bde988efb41/spring-boot-2.0.0.M7-sources.jar!/org/springframework/boot/jdbc/DataSourceBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="373">
+              <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanUtils.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.2.RELEASE/b5813fc5315d56660d938fe5219f9e2f83b7ca34/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,11 +170,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DruidDataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -189,8 +193,8 @@
       <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,6 +223,7 @@
       <find>requestPredicate</find>
       <find>/web</find>
       <find>@ConfigurationProperties</find>
+      <find>resolved</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1249,11 +1254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring-Blog-business/src/main/java/com/charles/business/model/User.java" />
-        <option value="$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/Spring-Blog-webflux/src/main/java/com/charles/webflux/configure/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/resources/thymeleaf/index.html" />
         <option value="$PROJECT_DIR$/Spring-Blog-webflux/src/test/java/com/charles/webflux/nosql/RedisTest.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java" />
@@ -1300,6 +1300,11 @@
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java" />
         <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/Primary.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.0/b0c3136f1c62198c7871127b642b1d8349e779a2/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java" />
       </list>
     </option>
   </component>
@@ -1383,7 +1388,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="dataSource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring-Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -1563,7 +1568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testSelect">
+  <component name="RunManager" selected="JUnit.UserMapperTest">
     <configuration name="SpringBlogApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1606,23 +1611,23 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.charles.webflux.mapper.*" />
+          <option name="PATTERN" value="com.charles.api.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Spring-Blog-webflux_test" />
+      <module name="Spring-Blog-api_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.charles.webflux.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.charles.webflux.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.charles.api.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.charles.api.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Spring-Blog-webflux" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Spring-Blog-api" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1770,17 +1775,17 @@
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.WebfluxApplication" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testSelect" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.WebfluxApplication (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapperTest.test" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringBlogApiApplication (1)" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.SpringBlogApiApplicationTests.contextLoads" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringBlogApiApplication (1)" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SpringBlogApiApplicationTests.contextLoads" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.UserMapperTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testSelect" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringBlogApiApplicationTests.contextLoads" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.WebfluxApplication (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringBlogApiApplication (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapperTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapperTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapperTest.testSelect" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringBlogApiApplicationTests.contextLoads" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.WebfluxApplication (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringBlogApiApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1803,7 +1808,7 @@
       <workItem from="1515592019187" duration="2420000" />
       <workItem from="1515906305931" duration="1729000" />
       <workItem from="1515908970709" duration="4085000" />
-      <workItem from="1515995548130" duration="10728000" />
+      <workItem from="1515995548130" duration="11823000" />
     </task>
     <task id="LOCAL-00001" summary=":bug: 剔除无用文件目录">
       <created>1515492646001</created>
@@ -1868,24 +1873,28 @@
       <option name="project" value="LOCAL" />
       <updated>1516006166864</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":ambulance: Api 配置多数据源">
+      <created>1516015116933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516015116933</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringBlogApiApplicationTests_contextLoads - 2018.01.15 at 14h 44m 05s.xml">
-      <configuration name="SpringBlogApiApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="UserMapperTest - 2018.01.15 at 19h 29m 17s.xml">
+      <configuration name="UserMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringBlogApiApplicationTests_contextLoads - 2018.01.15 at 14h 47m 55s.xml">
-      <configuration name="SpringBlogApiApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="UserMapperTest - 2018.01.15 at 19h 31m 17s.xml">
+      <configuration name="UserMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 16h 03m 31s.xml">
-      <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest - 2018.01.15 at 19h 33m 36s.xml">
+      <configuration name="UserMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 16h 24m 02s.xml">
-      <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 16h 45m 07s.xml">
-      <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest - 2018.01.15 at 19h 36m 29s.xml">
+      <configuration name="UserMapperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 19h 05m 25s.xml">
       <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
@@ -1902,9 +1911,12 @@
     <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 19h 16m 35s.xml">
       <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_testSelect - 2018.01.15 at 19h 28m 10s.xml">
+      <configuration name="UserMapperTest.testSelect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33523000" />
+    <option name="totallyTimeSpent" value="34618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1995,7 +2007,8 @@
     <MESSAGE value="fix contributions" />
     <MESSAGE value=":ambulance: WebFlux" />
     <MESSAGE value=":ambulance: Api 模块配置Druid连接池" />
-    <option name="LAST_COMMIT_MESSAGE" value=":ambulance: Api 模块配置Druid连接池" />
+    <MESSAGE value=":ambulance: Api 配置多数据源" />
+    <option name="LAST_COMMIT_MESSAGE" value=":ambulance: Api 配置多数据源" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2005,12 +2018,6 @@
           <line>22</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/controller/IndexController.java</url>
@@ -2024,30 +2031,30 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.1/59b2a888105b7c90c382f1fc5d3d4c4c7c65c8f0/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java</url>
+          <line>318</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/main/java/com/charles/webflux/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-webflux/src/main/java/com/charles/webflux/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/WebFluxConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -2343,8 +2350,8 @@
         <state relative-caret-position="504">
           <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2360,14 +2367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.2.RELEASE/b5813fc5315d56660d938fe5219f9e2f83b7ca34/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -2376,95 +2375,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.2.RELEASE/791175a228ad202bb8862203c1a9296dca0a93dd/spring-jdbc-5.0.2.RELEASE-sources.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.2.RELEASE/50c0b7ba09c2819f66aa3500080320cdb743cf20/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/annotation/Primary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="491">
+          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.M7/6527d0d56f95c1747e42180f63f49bde988efb41/spring-boot-2.0.0.M7-sources.jar!/org/springframework/boot/jdbc/DataSourceBuilder.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DatabaseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.1/59b2a888105b7c90c382f1fc5d3d4c4c7c65c8f0/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DynamicDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="317" column="52" lean-forward="true" selection-start-line="317" selection-start-column="52" selection-end-line="317" selection-end-column="52" />
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DruidDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseContextHolder.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.2.RELEASE/b5813fc5315d56660d938fe5219f9e2f83b7ca34/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DatabaseType.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.0.M7/6527d0d56f95c1747e42180f63f49bde988efb41/spring-boot-2.0.0.M7-sources.jar!/org/springframework/boot/jdbc/DataSourceBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="373">
+          <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/test/java/com/charles/api/mapper/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DynamicDataSource.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/1.3.0/b0c3136f1c62198c7871127b642b1d8349e779a2/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="112">
+          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.2.RELEASE/791175a228ad202bb8862203c1a9296dca0a93dd/spring-jdbc-5.0.2.RELEASE-sources.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2544#2545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DruidDataSourceConfig.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.1/59b2a888105b7c90c382f1fc5d3d4c4c7c65c8f0/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="335">
+          <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/DataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/Spring-Blog-api/src/main/java/com/charles/api/config/dataSource/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="554">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>

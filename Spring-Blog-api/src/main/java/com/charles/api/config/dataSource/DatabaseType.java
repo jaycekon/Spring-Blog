@@ -1,4 +1,4 @@
-package com.charles.api.config;
+package com.charles.api.config.dataSource;
 
 /**
  * 列出数据源类型

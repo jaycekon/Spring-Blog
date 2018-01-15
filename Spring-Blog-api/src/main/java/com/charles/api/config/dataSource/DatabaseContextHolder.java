@@ -1,4 +1,4 @@
-package com.charles.api.config;
+package com.charles.api.config.dataSource;
 
 /**
  * 保存一个线程安全的DatabaseType容器
