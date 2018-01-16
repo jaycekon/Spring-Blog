@@ -67,3 +67,6 @@ Spring-Blog
 ```
 ~\Spring-Blog\Spring-Blog-api\src\main\java\com\charles\api\config\swagger\SwaggerConfig.java
 ```
+
+
+### 8102-01-15 配置Mybatis 主从分离，Redis连接池

@@ -104,7 +104,6 @@ public class DataSourceConfig {
         DynamicDataSource dataSource = new DynamicDataSource();
         dataSource.setTargetDataSources(targetDataSources);// 该方法是AbstractRoutingDataSource的方法
         dataSource.setDefaultTargetDataSource(myTestDb2DataSource);// 默认的datasource设置为myTestDbDataSource
-
         return dataSource;
     }
 
