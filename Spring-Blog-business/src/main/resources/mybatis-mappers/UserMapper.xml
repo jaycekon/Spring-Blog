@@ -4,17 +4,17 @@
 <mapper namespace="com.charles.business.mapper.UserMapper">
     <resultMap id="User" type="User">
         <result column="username" jdbcType="VARCHAR" property="username"/>
-        <result column="idCard" jdbcType="VARCHAR" property="idCard"/>
+        <result column="id_card" jdbcType="VARCHAR" property="idCard"/>
         <result column="phone" jdbcType="VARCHAR" property="phone"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
     </resultMap>
 
     <sql id="columns">
-       username,idCard,phone,password
+       username,id_card,phone,password
     </sql>
 
     <select id="selectByIdCard" parameterType="java.lang.String"
-            resultType="User">
+            resultMap="User">
         select id,
         <include refid="columns"/>
         from user
