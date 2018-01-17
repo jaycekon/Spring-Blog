@@ -44,10 +44,11 @@ public class DataSourceConfig {
     /**
      * 通过Spring JDBC 快速创建 DataSource
      * 参数格式
-     spring.datasource.master.jdbcurl=jdbc:mysql://localhost:3306/charles_blog
-     spring.datasource.master.username=root
-     spring.datasource.master.password=root
-     spring.datasource.master.driver-class-name=com.mysql.jdbc.Driver
+     * spring.datasource.master.jdbcurl=jdbc:mysql://localhost:3306/charles_blog
+     * spring.datasource.master.username=root
+     * spring.datasource.master.password=root
+     * spring.datasource.master.driver-class-name=com.mysql.jdbc.Driver
+     *
      * @return DataSource
      */
     @Bean(name = "masterDataSource")
@@ -61,10 +62,11 @@ public class DataSourceConfig {
     /**
      * 手动创建DruidDataSource,通过DataSourceProperties 读取配置
      * 参数格式
-     spring.datasource.url=jdbc:mysql://localhost:3306/charles_blog
-     spring.datasource.username=root
-     spring.datasource.password=root
-     spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+     * spring.datasource.url=jdbc:mysql://localhost:3306/charles_blog
+     * spring.datasource.username=root
+     * spring.datasource.password=root
+     * spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+     *
      * @return DataSource
      * @throws SQLException
      */
@@ -93,17 +95,32 @@ public class DataSourceConfig {
     }
 
 
+    /**
+     *  构造多数据源连接池
+     *  Master 数据源连接池采用 HikariDataSource
+     *  Slave  数据源连接池采用 DruidDataSource
+     * @param master
+     * @param slave
+     * @return
+     */
     @Bean
     @Primary
-    public DynamicDataSource dataSource(@Qualifier("masterDataSource") DataSource myTestDbDataSource,
-                                        @Qualifier("slaveDataSource") DataSource myTestDb2DataSource) {
+    public DynamicDataSource dataSource(@Qualifier("masterDataSource") DataSource master,
+                                        @Qualifier("slaveDataSource") DataSource slave) {
         Map<Object, Object> targetDataSources = new HashMap<>();
-        targetDataSources.put(DatabaseType.master, myTestDb2DataSource);
-        targetDataSources.put(DatabaseType.slave, myTestDbDataSource);
+        targetDataSources.put(DatabaseType.master, master);
+        targetDataSources.put(DatabaseType.slave, slave);
 
         DynamicDataSource dataSource = new DynamicDataSource();
         dataSource.setTargetDataSources(targetDataSources);// 该方法是AbstractRoutingDataSource的方法
-        dataSource.setDefaultTargetDataSource(myTestDb2DataSource);// 默认的datasource设置为myTestDbDataSource
+        dataSource.setDefaultTargetDataSource(slave);// 默认的datasource设置为myTestDbDataSource
+
+        String read = env.getProperty("spring.datasource.read");
+        dataSource.setMethodType(DatabaseType.slave, read);
+
+        String write = env.getProperty("spring.datasource.write");
+        dataSource.setMethodType(DatabaseType.master, write);
+
         return dataSource;
     }
 

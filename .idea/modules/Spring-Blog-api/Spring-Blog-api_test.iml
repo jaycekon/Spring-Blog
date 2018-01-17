@@ -40,6 +40,7 @@
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.6.1" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.44" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:1.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.2" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor:reactor-test:3.1.2.RELEASE" level="project" />
     <orderEntry type="module" module-name="Spring-Blog-common_main" />
     <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.29" level="project" />

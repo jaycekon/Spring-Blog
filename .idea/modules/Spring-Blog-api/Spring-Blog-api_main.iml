@@ -36,6 +36,7 @@
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.6.1" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.44" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid:1.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.2" level="project" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.18" level="project" />
     <orderEntry type="module" module-name="Spring-Blog-common_main" />
     <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.29" level="project" />
@@ -122,5 +123,6 @@
     <orderEntry type="library" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.9.RELEASE" level="project" />
   </component>
 </module>
