@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
+import javax.persistence.Column;
+
 /**
  * Created by weijie_huang on 2017/9/7.
  */
@@ -16,8 +18,12 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class User extends BaseEntity {
+
     private String password;
+
     private String username;
+
     private String idCard;
+
     private String phone;
 }
