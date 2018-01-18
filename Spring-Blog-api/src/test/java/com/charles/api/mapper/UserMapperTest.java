@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-//@Transactional
+@Transactional
 public class UserMapperTest {
     @Autowired
     private UserMapper mapper;
