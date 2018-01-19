@@ -8,7 +8,6 @@ import static org.springframework.web.reactive.function.BodyInserters.fromObject
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 
 /**
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/15 9:56
  */
 @Configuration

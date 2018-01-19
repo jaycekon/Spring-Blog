@@ -3,7 +3,6 @@ package com.charles.api.config.dataSource;
 /**
  *
  * mybatis 配置数据库连接池 单一数据源代码示例
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/15 14:09
  */
 //@Configuration

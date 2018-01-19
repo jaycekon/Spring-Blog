@@ -13,7 +13,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger Api 配置文件
  *
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/15 19:55
  * @Api：修饰整个类，描述Controller的作用
  * @ApiOperation：描述一个类的一个方法，或者说一个接口

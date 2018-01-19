@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
 /**
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/9 16:58
  */
 @Mapper

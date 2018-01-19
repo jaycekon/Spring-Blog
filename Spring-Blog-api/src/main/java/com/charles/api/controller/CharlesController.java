@@ -12,7 +12,6 @@ import reactor.core.publisher.Flux;
 /**
  * 用户管理APi 接口
  *
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/15 19:58
  */
 @RestController

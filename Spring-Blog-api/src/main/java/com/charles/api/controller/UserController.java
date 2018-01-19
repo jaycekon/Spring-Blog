@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 获取用户基本信息类，用于测试读写分离
  *
- * @author <a href="mailto:weijie_huang@sui.com"> weijie_huang </a>
  * 2018/1/17 14:08
  */
 @RestController
