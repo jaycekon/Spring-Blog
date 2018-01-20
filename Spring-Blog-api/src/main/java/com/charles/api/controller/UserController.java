@@ -27,6 +27,9 @@ public class UserController {
     @Autowired
     private UserMapper userMapper;
 
+
+
+
     @ApiOperation(value = "查找用户", notes = "根据 IdCard 获取用户")
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public User findByIdCard(String idCard) {
