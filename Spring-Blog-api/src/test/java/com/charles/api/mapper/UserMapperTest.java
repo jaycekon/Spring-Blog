@@ -15,15 +15,11 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Created by weijie_huang on 2017/9/7.
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest
-@Transactional
+
 public class UserMapperTest {
-    @Autowired
     private UserMapper mapper;
 
-    @Test
-    @Rollback
+
     public void testInset() {
         User user = new User("Jaycekon","1234","1234","123");
         int i = mapper.insert(user);
@@ -31,7 +27,6 @@ public class UserMapperTest {
     }
 
 
-    @Test
     public void testSelect(){
         User user = mapper.selectByIdCard("440182199512042311");
         Assert.assertNotNull(user);

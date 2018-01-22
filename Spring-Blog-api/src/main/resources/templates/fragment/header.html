@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Thymeleaf In Action</title>
+</head>
+<body>
+<div th:fragment="header">
+    <h1>Spring-Blog Jayce</h1>
+    <a th:href="@{~/users/list}">主页</a>
+</div>
+</body>
+</html>

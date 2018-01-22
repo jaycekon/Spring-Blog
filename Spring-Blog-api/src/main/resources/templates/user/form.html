@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf In Action</title>
+</head>
+<body>
+<div th:replace="~{fragment/header :: header}"></div>
+<h3 th:text="${title}">JayceKong</h3>
+
+<form th:action="@{~/users/saveOrUpdate}" method="post" th:object="${user}">
+    <input type="hidden" name="id" th:value="*{id}"/>
+    名称: <br><input type="text" name="username" th:value="*{username}"><br>
+    身份证: <br><input type="text" name="idCard" th:value="*{idCard}"><br>
+    密码: <br><input type="text" name="password" th:value="*{password}"><br>
+    手机: <br><input type="text" name="phone" th:value="*{phone}"><br>
+    <input type="submit" name="提交">
+</form>
+<div th:replace="~{fragment/footer :: footer}"></div>
+</body>
+</html>

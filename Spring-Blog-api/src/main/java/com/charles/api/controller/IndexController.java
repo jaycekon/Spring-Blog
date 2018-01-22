@@ -15,7 +15,7 @@ public class IndexController {
 
     @RequestMapping(value = "hello")
     public String index(Model model) {
-        model.addAttribute("name", "Dear");
+        model.addAttribute("name", "黄伟杰");
         return "hello";
     }
 
