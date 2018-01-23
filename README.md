@@ -76,7 +76,7 @@ Spring-Blog
 - 配置文件添加读写分离函数命名头，例如：**spring.datasource.read** = get,select,count,list,query
 - **DynamicDataSource** 初始化时，将配置文件初始化到 **METHOD_TYPE_MAP** 中。
 - **~\config\dataSource\DataSourceAspect.java** 配置切面
-```aidl
+```
 execution(* com.charles.business.mapper.*.*(..))
 ```
 在进入切面前进行校验方法是查询还是修改数据库，通过 **DatabaseContextHolder** 设置数据源类型。
